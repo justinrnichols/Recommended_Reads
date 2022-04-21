@@ -1,0 +1,49 @@
+.reviews {
+	display: none;
+	text-align: left;
+}
+
+.write {
+	display: none;
+}
+
+.header {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.review .review-row:hover {
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+.review .review-row {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    padding: 3%;
+}
+
+.review-text:hover {
+    visibility: hidden
+}
+
+.review-text:hover {
+    visibility: visible
+}
+
+.profile-pic {
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    color:  lightgray;
+}
+
+.text {
+	
+	font-weight: 400;
+	line-height: 2;
+}
+
+.date {
+	font-weight: 400;
+	line-height: 1;
+}

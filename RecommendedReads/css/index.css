@@ -1,0 +1,120 @@
+body {
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #8F8F8F;
+  line-height: 2;
+  margin: 0;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #7393B3;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* General Container for Sections */
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* Top Title w/ Nav Bar Section*/
+
+#top {
+  text-align: left;
+}
+
+#top .container-fluid {
+  padding: 1.5% 10% 10%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  padding: 0;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  padding: 0 20px;
+}
+
+#logo-img {
+  width: 40px;
+  position: static;
+}
+
+#books-img {
+  width: 100%;
+  position: absolute;
+
+}
+
+/* Bottom Title w/ Social and Copyright Section */
+
+.copyright {
+  padding: 3%;
+}
+
+.social-icons {
+  color: #343a40;
+  padding: 0 2%;
+}
+
+.social-icons:hover {
+  color: #000000;
+}
+
+.copyright-text {
+  margin-top: 2%;
+}
+
+/* Mobile Website Changes */
+
+@media (max-width: 1300px) {
+
+  #top {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+  #logo-img {
+    width: 30px;
+    position: static;
+  }
+
+  #books-img {
+    margin-top: 40px;
+    position: static;
+    width: 70%;
+  }
+
+  #rating-img {
+    width: 80px;
+    height: 80px;
+  }
+
+}

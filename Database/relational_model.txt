@@ -1,0 +1,9 @@
+CREATE DATABASE recommended_reads;
+
+CREATE TABLE user_login (email VARCHAR(32), password VARCHAR(32), lastLogin DATETIME, PRIMARY KEY (email));
+
+CREATE TABLE user_info (firstName VARCHAR(32), lastName VARCHAR(32), email VARCHAR(32), favoriteGenre VARCHAR(32), favoriteAuthor VARCHAR(32), booksPerYear INT, joined DATETIME, PRIMARY KEY (email));
+
+CREATE TABLE book_info (title VARCHAR(64), author VARCHAR(32), genre VARCHAR(32), pages INT, year INT, PRIMARY KEY (title, author));
+
+CREATE TABLE ratings_reviews (email VARCHAR(32), title VARCHAR(64), author VARCHAR(32), rating FLOAT, review VARCHAR(256), posted DATETIME, PRIMARY KEY (email, title, author));

@@ -1,0 +1,115 @@
+/* Insert 16 Users */
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("nicholsrjustin@gmail.com", "Basketball23", "2021-08-01 05:50:20");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Justin", "Nichols", "nicholsrjustin@gmail.com", "Memoir", "Stephen King", 20, "2021-12-02 03:10:20");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("brennanhagan@gmail.com", "Password1", "2021-09-10 18:53:26");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Brennan", "Hagan", "brennanhagan@gmail.com", "Memoir", "Stephen King", 40, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("chrisnichols@gmail.com", "Password1", "2021-09-10 18:57:26");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Chris", "Nichols", "chrisnichols@gmail.com", "Fiction", "Rick Riordan", 5, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("hannahwagner@gmail.com", "Password1", "2021-09-10 15:15:26");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Hannah", "Wagner", "hannahwagner@gmail.com", "Nonfiction", "Walter Isaacson", 15, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("huntermeatte@gmail.com", "Password1", "2021-09-10 17:20:26");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Hunter", "Meatte", "huntermeatte@gmail.com", "Horror", "Stephen King", 7, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("amberbuetter@gmail.com", "Password1", "2021-09-10 10:25:40");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Amber", "Buetter", "amberbuetter@gmail.com", "Children's", "Dr. Seuss", 30, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("anniexia@gmail.com", "Password1", "2021-09-10 11:52:30");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Annie", "Xia", "anniexia@gmail.com", "Poetry", "William Shakespeare", 12, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("madisoncancienne@gmail.com", "Password1", "2021-09-10 22:43:16");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Madison", "Cancienne", "madisoncancienne@gmail.com", "Romance", "Danielle Steel", 15, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("mikeanderson@gmail.com", "Password1", "2021-09-10 09:30:45");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Mike", "Anderson", "mikeanderson@gmail.com", "Dystopian", "Suzanne Collins", 20, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("libbyharrison@gmail.com", "Password1", "2021-09-10 23:58:05");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Libby", "Harrison", "libbyharrison@gmail.com", "Western", "Laura Ingalls Wilder", 14, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("matthewmccoy@gmail.com", "Password1", "2021-09-10 19:04:09");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Matthew", "McCoy", "matthewmccoy@gmail.com", "Business", "Daniel Kahneman", 05, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("juliethawkes@gmail.com", "Password1", "2021-09-10 08:21:24");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Juliet", "Hawkes", "juliethawkes@gmail.com", "Political", "Ronald Reagan", 10, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("lexiedunham@gmail.com", "Password1", "2021-09-10 15:53:40");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Lexie", "Dunham", "lexiedunham@gmail.com", "Educational", "Devin Vodicka", 14, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("rachelkitchen@gmail.com", "Password1", "2021-09-10 21:27:14");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Rachel", "Kitchen", "rachelkitchen@gmail.com", "Autobiography", "Michelle Obama", 50, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("carsonwilson@gmail.com", "Password1", "2021-09-10 18:18:26");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Carson", "Wilson", "carsonwilson@gmail.com", "Young Adult", "Harper Lee", 12, "2021-11-09 18:53:26");
+
+INSERT INTO user_login (email, password, lastLogin) VALUES ("test@gmail.com", "Test12345", "2021-12-01 05:09:50");
+INSERT INTO user_info (firstName, lastName, email, favoriteGenre, favoriteAuthor, booksPerYear, joined) VALUES ("Test", "Test", "test@gmail.com", "Fiction", "Robert Galbraith", 15, "2021-11-09 18:53:26");
+
+
+
+/* Insert 30 Books */
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Things They Carried", "Tim O'Brien", "Historical Fiction", 233, 1990);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Sorcerer's Stone", "J. K. Rowling", "Fiction", 320, 1997);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Chamber of Secrets", "J. K. Rowling", "Fiction", 352, 1998);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Prisoner of Azkaban", "J. K. Rowling", "Fiction", 448, 1999);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Goblet of Fire", "J. K. Rowling", "Fiction", 752, 2000);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Order of the Phoenix", "J. K. Rowling", "Fiction", 896, 2003);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Half Blood Prince", "J. K. Rowling", "Fiction", 672, 2005);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Harry Potter and the Deathly Hallows", "J. K. Rowling", "Fiction", 784, 2007);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Twilight", "Stephenie Meyer", "Romance", 544, 2005);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("New Moon", "Stephenie Meyer", "Romance", 608, 2006);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Eclipse", "Stephenie Meyer", "Romance", 640, 2007);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Breaking Dawn", "Stephenie Meyer", "Romance", 768, 2008);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Midnight Sun", "Stephenie Meyer", "Romance", 832, 2020);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("To Kill a Mockingbird", "Harper Lee", "Fiction", 281, 1960);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Cuckoo's Calling", "Robert Galbraith", "Crime & True Crime", 464, 2013);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Becoming", "Michelle Obama", "Memoir", 448, 2018);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Hunger Games", "Suzanne Collins", "Dystopian", 374, 2008);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Catching Fire", "Suzanne Collins", "Dystopian", 391, 2009);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Mockingjay", "Suzanne Collins", "Dystopian", 390, 2010);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Billy Summers", "Stephen King", "Crime & True Crime", 528, 2021);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Billy Summers", "Stephen King", "Crime & True Crime", 528, 2021);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("It", "Stephen King", "Horror", 1138, 1986);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Shining", "Stephen King", "Horror", 447, 1977);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Dolores Claiborne", "Stephen King", "Thriller & Suspense", 305, 1992);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Memoirs of a Geisha", "Arthur Golden", "Historical Fiction", 448, 1997);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("A Separate Peace", "John Knowles", "Coming-of-age", 236, 1959);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Their Eyes Were Watching God", "Zora Neale Hurston", "Fiction", 849, 2011);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("A Series of Unfortunate Events", "Lemony Snicket", "Children's", 849, 2011);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Witches Salem, 1962", "Stacy Schiff", "Nonfiction", 544, 2011);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("Modern Comfort Food A Barefoot Contessa Cookbook", "Ina Garten", "Home & Cooking & Garden", 256, 2020);
+
+INSERT INTO book_info (title, author, genre, pages, year) VALUES ("The Fault in Our Stars", "John Green", "Young Adult", 313, 2012);

@@ -1,0 +1,111 @@
+.scrollable {
+    height: 30rem;
+    width: 100%;
+    overflow-y: auto;
+	position: relative;
+	text-align: center;
+}
+
+.profile-img {
+    text-align: center;
+    margin: 2.5% 0 2.5% 0;
+}
+
+.edit-btn {
+    padding: 3%;
+    width: auto;
+    margin: 0;
+}
+
+.general-btn {
+    padding: 10% 1% 3% 1%;
+    width: auto;
+    margin: 0;
+}
+
+.profile-head .nav-tabs {
+    margin: 3% 0 0 0;
+}
+.profile-head .nav-tabs .nav-link {
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom:2px solid #7393B3;
+}
+
+.nav li {
+    width: calc(100% / 2);
+}
+
+.tab-content.col-md-6 {
+	max-width: 0;
+}
+
+.col-md-6 {
+    max-width: revert;
+}
+	
+label {
+	line-height: 1;
+	font-weight: 600;
+   	padding: 3% 0 0 0;
+}
+
+.col-md-6 svg {
+	margin: 0.5rem 0;
+}
+
+.col-md-6 p {
+	padding: 0;
+	line-height: 1;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-group {
+	margin: 0 10%
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: auto;
+}
+
+@media (max-width: 1300px) {
+	
+	.profile-head nav {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#scrollable {
+		height: 15rem;
+	}
+	
+	#review {
+		padding: 0% 10%;
+	}
+}
+}
